@@ -12,8 +12,8 @@ public class MultiDimensionArray {
         Random random = new Random();
         System.out.println("Please enter numbers: ");
         //Scanner sc = new Scanner(System.in);
-        int rows = 300;
-        int column = 300;
+        int rows = 3;
+        int column = 3;
         int[][] multiArray = new int[rows][column];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < column; j++) {
